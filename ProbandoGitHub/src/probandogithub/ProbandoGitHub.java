@@ -25,9 +25,10 @@ public class ProbandoGitHub {
         int num = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero:"));
 
         if (num >= 10) {
-            JOptionPane.showMessageDialog(null, "Es mayor");
+            JOptionPane.showMessageDialog(null, "El numero"+num+"Es mayor De 10");
+
         } else {
-            JOptionPane.showMessageDialog(null, "Es menor");
+            JOptionPane.showMessageDialog(null, "El numero"+num+"Es menor De 10");
         }
 
     }
