@@ -6,6 +6,7 @@
 package probandogithub;
 
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -21,18 +22,14 @@ public class ProbandoGitHub {
     public static void main(String[] args) {
         // TODO code application logic here
 
-        for (int i = 0; i < 10; i++) {
-            System.out.println("*");
-        }
-
-        System.out.println("Ingrese un numero:");
-        int num = entrada.nextInt();
+        int num = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero:"));
 
         if (num >= 10) {
-            System.out.println("Es mayor");
+            JOptionPane.showMessageDialog(null, "Es mayor");
         } else {
-            System.out.println("Es menor");
+            JOptionPane.showMessageDialog(null, "Es menor");
         }
+
     }
 
 }
