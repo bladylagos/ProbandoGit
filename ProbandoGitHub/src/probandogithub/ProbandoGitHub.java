@@ -21,7 +21,7 @@ public class ProbandoGitHub {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-
+        JOptionPane.showMessageDialog(null, "Bienvenido");
         int num = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero:"));
 
         if (num >= 10) {
